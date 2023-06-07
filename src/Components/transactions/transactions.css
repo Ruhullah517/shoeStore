@@ -1,0 +1,77 @@
+.List {
+    width: 90%;
+    margin: auto !important;
+    margin-top: 16px !important;
+}
+
+.listHeading {
+    background-color: #e19729 !important;
+    font-weight: bold !important;
+}
+
+.main-List {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.childList {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.childListTr{
+    word-break: break-all;
+}
+
+
+.removeBtn {
+    background-color: red;
+    cursor: pointer;
+    color: white;
+    border: 1px solid grey;
+}
+
+.removeBtn:hover {
+    scale: 1.1;
+}
+
+.hr {
+    border: 1px solid #f1f1f1;
+    height: 30px;
+    margin: auto;
+}
+.css-1p5q5e5-MuiStack-root{
+    position: relative;
+}
+.subtotal {
+    width: fit-content;
+    /* border: 1px solid red; */
+    position: relative;
+    left: 80%;
+}
+
+
+@media screen and (max-width:767px) {
+    .List {
+        width: 100%;
+    }
+
+
+    .main-List {
+        column-gap: 3px;
+    }
+}
+
+@media screen and (max-width:300px) {
+    .List {
+        width: fit-content;
+    }
+
+
+    .main-List {
+        column-gap: 3px;
+    }
+}

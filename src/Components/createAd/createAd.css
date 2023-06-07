@@ -1,0 +1,44 @@
+#standard-basic {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: none;
+    box-sizing: border-box;
+    background-color: transparent;
+}
+
+#standard-basic:focus {
+    outline: none;
+    background-color: none;
+    border: none;
+}
+
+
+.css-1c2i806-MuiFormLabel-root-MuiInputLabel-root.Mui-focused{
+    color: #d99546 !important;
+}
+
+.css-v4u5dn-MuiInputBase-root-MuiInput-root:after{
+    border-bottom: 2px solid #d99546 !important;
+}
+
+.createPrdctBtn {
+    border: 1px solid #d99546 !important;
+    background-color: transparent !important;
+    color: #d99546 !important;
+}
+.createPrdctBtn:hover{
+    background-color: #d99546 !important;
+    color: white !important;
+}
+
+
+.postPrdctBtn{
+    background-color: #d99546 !important;
+    color: white;
+
+}
+
+
+

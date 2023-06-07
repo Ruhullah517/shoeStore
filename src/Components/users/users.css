@@ -1,0 +1,66 @@
+.List {
+    width: 90%;
+    margin: auto !important;
+    margin-top: 16px !important;
+}
+
+.listHeading {
+    background-color: #e19729 !important;
+    font-weight: bold !important;
+}
+
+.main-List {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.childList {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+
+
+.removeBtn {
+    background-color: red;
+    cursor: pointer;
+    color: white;
+    border: 1px solid grey;
+}
+
+.removeBtn:hover {
+    scale: 1.1;
+}
+
+.hr {
+    border: 1px solid #f1f1f1;
+    height: 30px;
+    margin: auto;
+}
+
+
+
+@media screen and (max-width:767px) {
+    .List {
+        width: fit-content;
+    }
+
+
+    .main-List {
+        column-gap: 3px;
+    }
+}
+
+@media screen and (max-width:300px) {
+    .List {
+        width: fit-content;
+    }
+
+
+    .main-List {
+        column-gap: 3px;
+    }
+}

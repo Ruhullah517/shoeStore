@@ -1,0 +1,27 @@
+.dashCards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    justify-content: center;
+    row-gap: 10px;
+}
+
+.dashCards .css-pwngrv-MuiPaper-root-MuiCard-root {
+    background-color: #00adc9;
+    color: white;
+}
+
+.switchBtn {
+    position: relative;
+    top: 40px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.lineChart {
+    width: 90%;
+    margin: auto;
+}
